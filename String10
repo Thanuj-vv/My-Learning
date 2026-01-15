@@ -1,35 +1,12 @@
-December 9
-I should do more than 10 problems tomorrow 
-I should complete arrays and strings topics by 12th december
-I should do atleast 60 problems by december 15th
-I should crack the cognizant genc role
-I couldn't study arrays today
-But by tomorrow morining 12 o clock i'll do atleast 5 problems
-I'll prepare a study time table for completing strings, arrays and sql within 4 days
-I'll also do html css within this time 
-11th december : didn't do anything just writing this to maintain streak and commits in github
-but i have plan till 15th december. i hope it works
-that i'll complete both strings and arrays with good understanding
-Today is 14th december and i don't anything about arrays and strings
-somewhere i am losing all my time
-i have an exam tomorrow i 
-i somehow cleared the exam i couldn't clear the interview
-
-it's sad i need to focus more and study all the fundamentals
-my finger got broken today
-tomorrow i'll finish arrays and i'll update then i'll finish strings
-2026
-i have time till jan 7th to fully learn the arrays and strings 
-concepts tomorrow
-only 2 days
-till the training
-only one day is left for studying arrays and strings
-learning arrays 
-i'll atleast 2 strings problem tomorrow
-and should finish the extra things
-today is 8th and i'm doing two pointer problems . i need to do atleast one question in the exam 
-tomorrow is very critical but i 
-didn't
-do 
-anything
-only 7 hours of sleep strictly yes and now
+class Solution:
+    def reverseArray(self, arr):
+        # code here
+        l=0
+        e=len(arr)-1
+        for l in range(len(arr)//2):
+            
+            arr[e],arr[l]=arr[l],arr[e]
+            
+            l+=1
+            e-=1
+        return arr
