@@ -1,0 +1,9 @@
+class Solution:
+	def countSubstr(self, S):
+		# your code here
+		c=0
+		for i in s:
+		    if i=='1':
+		      c+=1
+		 
+		return (c*(c-1))//2
